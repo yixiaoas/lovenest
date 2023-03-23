@@ -1,0 +1,13 @@
+0:Bedroom
+1:Diningroom
+2:Edwardian Suite
+3:Exterior
+4:Fitzgerald Suite
+5:Hardenbergh Terrace Suite
+6:Plaza Suite
+7:Regular
+8:Royal Suite
+9:The Eloise Suite
+10:The Palm Court
+11:The Plaza Food Hall
+12:The Royal Plaza Suite
