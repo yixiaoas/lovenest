@@ -7,6 +7,9 @@ import numpy as np
 from torch.utils.data import DataLoader
 from torchvision import transforms
 
+label_path = '../Hotel1_image\image_data2.csv'
+img_root_path = '../Hotel1_image\\'
+
 class myImageDataset(Dataset):
     def __init__(self, img_dir, img_label_dir, transform=None):
         super().__init__()
@@ -48,8 +51,7 @@ label_dic = {
     12:'The Royal Plaza Suite'
 
 }
-label_path = '../Hotel1_image\image_data2.csv'
-img_root_path = '../Hotel1_image\\'
+
 
 dataset = myImageDataset(img_root_path, label_path)
 
